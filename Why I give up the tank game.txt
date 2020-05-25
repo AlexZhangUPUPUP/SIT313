@@ -1,0 +1,4 @@
+I have tried many times of tank game,but it is too difficult for me, 
+I have implemnt the move, turn direction of the tank 
+But it still has too many issues I faced and I think I do not have the ability to finish the original aim of the tank.
+So I changed the game.
