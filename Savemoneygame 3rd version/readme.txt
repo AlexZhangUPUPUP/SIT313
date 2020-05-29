@@ -1,0 +1,1 @@
+Add the carview to get the money, add left and right button to move the car.
