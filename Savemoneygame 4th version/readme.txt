@@ -1,0 +1,1 @@
+GIve different money different speed.
