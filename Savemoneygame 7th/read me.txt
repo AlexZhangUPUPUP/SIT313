@@ -1,0 +1,5 @@
+change the UI
+add car class
+fix bugs
+
+change the function of the leftbutton to move the carview 
