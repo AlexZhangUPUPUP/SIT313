@@ -15,7 +15,9 @@ May 26th:
 Use one thread to implemnt the drop different money in different speeds.
 The sample UI and sample function
 Can not get the core of game.
-folder: Savemoneygame 2nd version.
+folder: Savemoneygame 2nd version
+
+
 
 May 29th:
 Add the carview to get the money, add left and right button to move the car.
