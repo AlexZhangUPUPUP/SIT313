@@ -8,6 +8,14 @@ Github link:
 https://github.com/AlexZhangUPUPUP/SIT305-Game
 
 There are all versions of my game including tank game whcich I give up and the 8 versions of saving money game.
+
+Why I give up tank game?
+I have tried many times of tank game,but it is too difficult for me, 
+I have implemnt the move, turn direction of the tank 
+But it still has too many issues I faced and I think I do not have the ability to finish the original aim of the tank.
+So I changed the game.
+
+
 I submit the final version of the Saving money game.
 
 
