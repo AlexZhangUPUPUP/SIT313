@@ -1,0 +1,64 @@
+May 23th : 
+the first version of tank game, add the picture of tank, can  use the button to control the tank to move.
+folder£º the first version of tank(Give up).
+
+May 25th: 
+add the function to change the direction of tank, and changed the UI of the tank game.
+folder£» the second version of tank(Give up)
+
+May 25th: 
+give up the tank game and decide to development a new Saving money game. Write Why I give up the tank game.txt.
+Add the fist version of  Saving money game( Use one thraed to create the andom number ),
+folder: Savemoneygame 1st version.
+
+May 26th:
+Use one thread to implemnt the drop different money in different speeds.
+The sample UI and sample function
+Can not get the core of game.
+folder: Savemoneygame 2nd version.
+
+May 29th:
+Add the carview to get the money, add left and right button to move the car.
+folder: Savemoneygame 3rd version.
+
+May 30th:
+GIve different money different speed.
+folder: Savemoneygame 4th version.
+
+
+June 1st:
+Fix some bugs of the game, change the UI of the game
+folder:Savemoneygame 5th
+
+June 2nd:
+Add one more button ,chang the code of the coin so it can follow the imagview to movre
+folder:Savemoneygame 6th
+
+
+June 4th:
+change the UI
+add car class
+fix bugs
+change the function of the leftbutton to move the carview 
+folder:Savemoneygame 7th
+
+
+June 5th:
+1, the function to identify whether the coins are dropping to shopping car. If they are, the coins will disapper and player will get the cores. 
+If  they are not , it will broken then disappear.
+2, change the  function to move the shopping car
+3, the function to play music.
+4, the function to close the App when the game finish.
+5, change function to move bank automaticly.
+6, change function to move coins automaticly.
+7, add 10 coins and give them different speeds and cores.
+8, change the UI of the App
+
+folder:Savemoneygame final version
+
+
+
+
+
+
+ 
