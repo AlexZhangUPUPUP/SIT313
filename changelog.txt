@@ -6,9 +6,9 @@ May 25th:
 add the function to change the direction of tank, and changed the UI of the tank game.
 folder£» the second version of tank(Give up)
 
-May 25th: 
+May 24th: 
 give up the tank game and decide to development a new Saving money game. Write Why I give up the tank game.txt.
-Add the fist version of  Saving money game( Use one thraed to create the andom number ),
+Add the fist version of  Saving money game( Use one thraed to create the random number ),
 folder: Savemoneygame 1st version.
 
 May 26th:
@@ -18,6 +18,12 @@ Can not get the core of game.
 folder: Savemoneygame 2nd version
 
 
+the summary of the first week in this project.
+Although I have given up the tank game, I still waste lots of time.
+Know how to use thread and use it to create the random which relates to change the location of the bankView
+Add the sample UI of the Saving_money_game 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 May 29th:
 Add the carview to get the money, add left and right button to move the car.
@@ -57,6 +63,15 @@ If  they are not , it will broken then disappear.
 8, change the UI of the App
 
 folder:Savemoneygame final version
+
+the summary of the second week in this project.
+Add the music to the game, it will be played when the game starts.
+Finish the full UI of the game.
+Fix all the bugs of the game. 
+Finish the full Saving_money_game  App
+Finish SIT305
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
