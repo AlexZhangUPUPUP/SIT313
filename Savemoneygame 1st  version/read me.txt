@@ -1,1 +1,0 @@
-Learn how to use one thraed to create the andom number in order to next step

@@ -1,3 +1,0 @@
-Use one thread to implemnt the drop different money in different speeds.
-The sample UI and sample function
-Can not get the core of game.
