@@ -25,7 +25,9 @@ app.get('/',function(req,res){
 
 // POST /login 获取 URL编码的请求体
 app.post('/', urlencodedParser, function (req, res) {
-	mongoose.connect('mongodb://localhost:27017/iCrowdTask', {useNewUrlParser: true});
+	
+	
+	mongoose.connect('mongodb://localhost:27017/iCrowdTask', {useNewUrlParser: true,useUnifiedTopology: true});
 
 const studentSchema  =new mongoose.Schema(
 
@@ -77,10 +79,11 @@ const studentSchema  =new mongoose.Schema(
 	
 	state:{ type:String, required :true },
 	
+	
 	zip:  { type :Number, required :false},
 	
 	
-	phone:{ type :Number, required :false,
+	phone:{ type :String, required :false,
 	
 	validate(value){
 		
@@ -115,23 +118,24 @@ const unit =new Unit(
   }
 )
 
-unit.save( (err)=>{
-	
-	if(err){
-		
-		console.log(er);
-	}else{
-		
-		console.log("successfully!");
-	}
-})
-	
+  unit.save( (err)=>{
+  	
+  	if(err){
+  		
+  		console.log(err);
+  	}else{
+  		
+  		console.log("successfully!");
+  	}
+  	
+  })
+  
   
   res.send('welcome, ' + req.body.first_name) // 生成新的页面 。。。
   
 })
 
 
-app.listen(3000)
+app.listen(3000);
 
 
