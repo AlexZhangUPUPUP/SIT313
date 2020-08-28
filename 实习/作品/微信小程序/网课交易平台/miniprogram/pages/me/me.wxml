@@ -1,0 +1,56 @@
+<!--miniprogram/pages/me/me.wxml-->
+
+<view class="new">
+  <view class="head">
+    <text>Hi,</text> <text>{{userInfo.nickName}}</text> <!--用户名--> 
+  </view>
+  </view>
+<view class="white">  </view>
+
+<view class="grxx" style="background-image: url('../../images/backgroundlogin.png')"> <!--后续可以优化-->
+  
+		<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image> <!-- 用户头像-->
+
+			<view class="fl" >
+				<text>{{userInfo.nickName}}</text> <!--用户名-->    
+				<button class="button" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="primary">Login</button>
+			</view>
+  </view>
+
+<view class="one">
+   <view class="second">
+	    <image src="../../images/Personalinfo.png" class="psize"></image>
+      <image src="../../images/favorite.png" class="psize"></image>
+			<image src="../../images/order.png"></image>
+	 </view>
+	 <view class="third">
+      <text>Personal Information</text>
+			<text>My Favorite </text>
+			<text class="text_1"> My Order</text>
+		</view>
+</view>
+
+<view class="one">
+   <view class="second">
+	    <image src="../../images/Sell.png"></image>
+			<image src="../../images/auction.png"></image>
+	</view>
+	<view class="third">
+			<text >Selling My Goods</text>
+			<text >Auction my Goods </text>
+	 </view>
+</view>
+
+<view class="one">
+   <view class="second">
+	    <image src="../../images/History.png"></image>
+      <image src="../../images/Shopping Car.png"></image>
+	 </view>
+	 <view class="third">
+			<text>Browsing History </text>
+			<text class="text_1"> Bill Details</text>
+	 </view>
+</view>
+
+
+  

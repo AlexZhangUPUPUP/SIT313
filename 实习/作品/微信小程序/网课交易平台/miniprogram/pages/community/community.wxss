@@ -1,0 +1,114 @@
+/* pages/community/community.wxss */
+/**Edit by Hao Xie**/
+.head{
+  position: fixed;
+  width:100%;
+  background: #da7d54;
+  height:90rpx;
+  padding-top: 10px;
+  padding-left:6%;
+}
+
+.headBelow{
+  width:100%;
+  background: #da7d54;
+  height:90rpx;
+  padding-top: 10px;
+  padding-left:6%;
+}
+
+.unit{
+  width:100%;
+}
+
+.topLeft{
+  float:left;
+  width:30%;
+  text-align: center;
+  padding:20px 0 10px 0;
+}
+
+.userIcon{
+  border-radius: 50%;
+  height:80px;
+  width:80px;
+}
+
+.topMiddleTop{
+  float:left;
+  width:50%;
+  padding:30px 10px 0 10px;
+}
+
+.highlightFont{
+  font-weight: 700
+}
+
+.dataFont{
+  font-size:12px;
+  color:#969799;
+}
+
+.topRight{
+  float:left;
+  width:8%;
+  margin-top:10px;
+}
+
+.middle{
+  float:left;
+  width:100%;
+  height:140px;
+}
+
+.middlePic1{
+  width:25%;
+  height:90%;
+  margin:2% 20px 0 55px;
+}
+
+.middlePic2{
+  width:35%;
+  height:90%;
+}
+
+.line{
+ width:90%;
+ margin: 0 5% 0 5%;
+ height:1px;
+ background: #969799;
+ float:left;
+}
+
+.bottom{
+  width:100%;
+  height:60px;
+  float:left;
+}
+
+.bottomItem{
+  width:33%;
+  height:60px;
+  float:left;
+}
+
+.bottomImage{
+  width:20%;
+  height:34%;
+  margin-left:22px;
+  margin-top:18px;
+  float:left;
+}
+
+.bottomImageMiddle{
+  width:20%;
+  height:34%;
+  margin-top:18px;
+  float:left;
+}
+
+.bottomText{
+  margin-left: 5px;
+  margin-top:18px;
+  float:left;
+}

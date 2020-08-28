@@ -1,0 +1,93 @@
+<!--pages/community/community.wxml-->
+<page>
+  <view class="head">
+    <text>Community</text>
+  </view>
+
+  <view class="headBelow">
+  </view>
+
+  <view class="unit">
+    <view class="topLeft">
+      <image class="userIcon" src="/images/usericon.jpg"/> 
+    </view>
+
+    <view class="topMiddleTop">
+      <text class="highlightFont">{{username}}</text>
+      <text> ask to buy </text>
+      <text class="highlightFont">{{commodity}}\n</text>
+      <text class="dataFont">Today at 5:37 PM</text>
+    </view>
+
+    <view class="topRight">
+      <text class="highlightFont">···</text>
+    </view>
+
+    <view class="middle">
+      <image  class="middlePic1" src="/images/pic1.jpg"/>
+      <image  class="middlePic2"  src="/images/pic2.jpg"/>
+    </view>
+
+    <view class="line">
+    </view>
+
+    <view class="bottom">
+      <view class="bottomItem" bindtap="clickLike">
+        <image  class="bottomImage" src="{{likeIconURL}}"/>
+        <text class="bottomText">Like</text>
+      </view>
+
+      <view class="bottomItem">
+        <image  class="bottomImageMiddle" src="/images/comment.png"/>
+        <text class="bottomText">Comment</text>
+      </view>
+
+      <view class="bottomItem">
+        <image  class="bottomImage" src="/images/share.png"/>
+        <text class="bottomText">Share</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="unit">
+    <view class="topLeft">
+      <image class="userIcon" src="/images/usericon.jpg"/> 
+    </view>
+
+    <view class="topMiddleTop">
+      <text class="highlightFont">{{username}}</text>
+      <text> ask to buy </text>
+      <text class="highlightFont">{{commodity}}\n</text>
+      <text class="dataFont">Today at 5:37 PM</text>
+    </view>
+
+    <view class="topRight">
+      <text class="highlightFont">···</text>
+    </view>
+
+    <view class="middle">
+      <image  class="middlePic1" src="/images/pic1.jpg"/>
+      <image  class="middlePic2"  src="/images/pic2.jpg"/>
+    </view>
+
+    <view class="line">
+    </view>
+
+    <view class="bottom">
+      <view class="bottomItem" bindtap="clickLike">
+        <image  class="bottomImage" src="{{likeIconURL}}"/>
+        <text class="bottomText">Like</text>
+      </view>
+
+      <view class="bottomItem">
+        <image  class="bottomImageMiddle" src="/images/comment.png"/>
+        <text class="bottomText">Comment</text>
+      </view>
+
+      <view class="bottomItem">
+        <image  class="bottomImage" src="/images/share.png"/>
+        <text class="bottomText">Share</text>
+      </view>
+    </view>
+  </view>
+</page>

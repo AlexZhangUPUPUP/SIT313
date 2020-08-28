@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/community/community",
+    "pages/me/me",
+    "pages/logs/logs",
+    "pages/shoppingCart/shoppingCart",
+    "pages/chatroom/chatroom"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Second-hand Trading",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#bfbbbc",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/navigationIcon/indexIcon.png",
+        "iconPath": "images/navigationIcon/indexIcon.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "selectedIconPath": "images/navigationIcon/communityIcon.png",
+        "iconPath": "images/navigationIcon/communityIcon.png",
+        "pagePath": "pages/community/community"
+      },
+      {
+        "selectedIconPath": "images/navigationIcon/cartIcon.png",
+        "iconPath": "images/navigationIcon/cartIcon.png",
+        "pagePath": "pages/shoppingCart/shoppingCart"
+      },
+      {
+        "selectedIconPath": "images/navigationIcon/messageIcon.png",
+        "iconPath": "images/navigationIcon/messageIcon.png",
+        "pagePath": "pages/chatroom/chatroom"
+      },
+      {
+        "selectedIconPath": "images/navigationIcon/meIcon.png",
+        "iconPath": "images/navigationIcon/meIcon.png",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  }
+}

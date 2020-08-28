@@ -1,0 +1,67 @@
+<page> 
+  <view class="searchBackgroud" style="z-index:9999">
+      <view class="searchMain">
+        <input type="text" class="" disable placeholder="Search something..." value="{{searchValue}}"></input>
+        <icon  type="search" size="20" class="cancelBtn"></icon>
+      </view>
+  </view>
+
+<!--Recommandation-->
+<view style="width:100%">
+
+  <view class="btnBackground">
+    <button class="btnStyleLeft" bindtap="turnToHot">
+      <image src="/images/hotdeals.png" class="btnImgStyle"></image>
+      <text class="btnFontStyle">Hot Deals</text>
+    </button>
+  </view>
+
+  <view class="btnBackground" bindtap="turnToRec">
+    <button class="btnStyleMid">
+      <image src="/images/recommendation.png" class="btnImgStyle"></image>
+      <text class="btnFontStyle" style="font-size:6px">Recomendations</text>
+    </button>
+  </view>
+
+  <view class="btnBackground" bindtap="turnToAuc">
+    <button class="btnStyleRight">
+      <image src="/images/auctions.png" class="btnImgStyle"></image>
+      <text class="btnFontStyle">Auctions</text>
+    </button>
+  </view>
+</view>
+
+<!--Swipe-->
+<view class="slide-backgroud">
+  <swiper indicator-dots="true" autoplay="true" interval="7000" indicator-active-color="black" circular="true" bindchange="bindchange">
+    <block wx:for="{{bnrUrl}}" wx:for-index="index" class="slideImgBk">
+      <swiper-item>
+        <image src="{{item.url}}" mode="aspectFit" class="slide-image"  bindtap="swipClick"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!--Item List-->
+<view class="itemBack" wx:for="{{list}}" wx:key="{{item._id}}">
+<view class="item-container" bindtap="toDetail">
+    <image lazy-load="true" src="{{item.item_photo}}" class='img'></image>
+    <view class="content">
+      <view class="title">
+        <text>{{item.item_name}}</text>
+      </view>
+    </view>
+    <view class="action">
+      <view class="price">
+        <text>${{item.item_price}}</text>
+      </view>
+    </view>
+</view>
+</view>
+
+</page>
+
+
+
+
+
