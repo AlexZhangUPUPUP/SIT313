@@ -1,0 +1,5 @@
+ a <- matrix(c(3,3.5,3.2,3.6),nrow = 2,ncol = 2,byrow=TRUE)
+ View(a)
+ b <- matrix(c(118.4,135.2),nrow = 1,ncol = 2,byrow=TRUE)
+ View(b)
+ b %*% solve(a)

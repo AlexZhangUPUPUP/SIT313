@@ -1,0 +1,6 @@
+#(1)
+ggplot(Salaries, aes(x=Salaries$salary)) + geom_histogram(,color="red")
+#(2)
+ggplot(Salaries, aes(x=Salaries$salary)) + geom_density(,color="blue")
+#(3)
+ggplot(Salaries, aes(x=Salaries$rank)) + geom_bar(,color="blue")

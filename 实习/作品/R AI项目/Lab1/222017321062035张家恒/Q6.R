@@ -1,0 +1,1 @@
+ggplot(Salaries, aes(x=Salaries$sex ,y=Salaries$salary)  ) + geom_boxplot(,color="red")
