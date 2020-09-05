@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>iCrowdTask SignIn</title>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+
+	
+<div class="container">
+  <hr>
+  <div class="row">
+    <aside class="col-sm-4">
+      <h4 class="card-title mb-4 mt-1">iCrowdTask Login</h4>
+	  
+  <div class="card">
+	  
+  <article class="card-body">
+	  
+  <a href="index.html" class="float-right btn btn-outline-primary">Sign up</a>
+  
+  
+  <h4 class="card-title mb-4 mt-1">Sign in</h4>
+     <form action="http://127.0.0.1:3000/reqlogin" method="POST">
+		 
+      <div class="form-group">
+        <label>Your email</label>
+          <input name="email" class="form-control" placeholder="email" type="email">
+      </div> <!-- form-group// -->
+	  
+	  
+      <div class="form-group">
+        <a class="float-right" href="#">Forgot?</a>
+        <label>Your password</label>
+          <input class="form-control" placeholder="******" type="text" name="password">
+      </div> <!-- form-group// --> 
+	  
+      <div class="form-group"> 
+	  
+         <div class="checkbox">
+           <label> <input type="checkbox"> Save password </label>
+        </div> <!-- checkbox .// -->
+	  
+      </div> <!-- form-group// --> 
+	   
+      <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block" name="login"> Login  </button>
+         </div> <!-- form-group// -->                                                           
+  </form>
+  
+  </article>
+  
+</div> <!-- card.// -->
+
+
+ <script src="../sever.js" type="text/javascript" charset="utf-8"></script>
+ 
+</body>
+
+
+</html>
