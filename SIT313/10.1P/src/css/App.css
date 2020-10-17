@@ -1,0 +1,39 @@
+.sss{
+	width: 100%;
+	height: 900px;
+	background-color: #4169E1;
+    color: blue;	
+}
+
+.select{
+	width: 24.8%;
+	height: 50px;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	margin-left: 1px;
+	text-align: center;
+	color: black;
+    background-color: #4169E1;
+	font-size: 25px;
+	float: left;
+	
+	
+}
+
+.line{
+	width: 100%;
+	height: 50px;
+	
+	float: left;
+	font-size: 30px;
+	
+}
+.button{
+	width: 200px;
+	height: 50px;
+	
+	color: white;
+	float: right;
+	
+}
